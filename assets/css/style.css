@@ -1,0 +1,16 @@
+/* CSS styling for basic portfolio site */
+
+
+/* Global Styling */
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1 {
+   float: left;
+   margin-left: 15%;
+}
