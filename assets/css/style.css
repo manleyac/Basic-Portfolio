@@ -4,12 +4,31 @@
 /* Global Styling */
 body {
    font-family: Arial, Helvetica, sans-serif;
-   background-color: gray;
-   margin: 0px;
+   color: #777777;
+   margin: 0px 0px;
+   background-image: url("../images/dust_scratches.png");
+   background-position: center;
+   background-repeat: repeat;
 }
 
+a{
+   color: #777;
+   text-decoration: none;
+} 
+
+a:hover {
+   color: darkgray;
+}
+
+hr {
+   color: #ccc;
+   margin: 0px 10px 16px 10px;
+}
+
+/* header syles */
 header {
-   background-color: white;
+   background-color: #ffffff;
+   border-bottom: 2px solid #ccc;
    margin: 0px;
 }
 
@@ -22,31 +41,89 @@ header {
 
 header h1 {
    float: left;
+   margin: 0px;
+   padding: 20px 20px;
+   background-color: #4aaaa5;
+   color: #fff;
+}
+
+header ul {
+   float: right;
+   margin-right: 30px;
 }
 
 header li {
-   
    display: inline;
+   padding: 5px 5px;
+   border-right: 1px solid #ccc;
 }
 
+#lastLink {
+   border: none;
+}
+
+/* Section Styles */
 section {
    width: 960px;
+   height: 400px;
    margin: auto;
    position: relative;
    top: 50%;
    transform: translateY(50%);
-   background-color: red;
+   background-color: #fff;
+   border: 1px solid #ddd;
 }
 
 section h2 {
-   margin: 15px 15px;
+   margin: 15px 15px 15px 50px;
    vertical-align: center;
+   color: #4aaaa5;
 }
 
+section img {
+   float: left;
+   margin: 10px 10px;
+}
+
+section p {
+   margin: 30px;
+   line-height: 2;
+   text-align: center;
+}
+
+#portfolioPic {
+   margin-left: 40px;
+}
+
+/* input form */
+form * {
+   display: block;
+   margin: 10px 50px 10px 50px;
+   width: 860px;
+   height: 20px;
+}
+
+form textarea {
+   height: 100px;
+}
+
+form input[type=submit] {
+   font-size: 15px;
+   width: 100px;
+   padding: 15px 20px 30px;
+   text-align: center;
+   background-color: #4aaaa5;
+   color: #fff;
+}
+
+/* footer */
 footer {
-   background-color: green;
+   background-color:#666;
+   color: #fff;
    position: fixed;
    bottom: 0;
-   margin: auto;
+   text-align: center;
    width: 100%;
+   height: 75px;
+   border-top: 10px solid #4aaaa5;
 }
